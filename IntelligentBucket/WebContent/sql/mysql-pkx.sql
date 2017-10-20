@@ -23,6 +23,20 @@ DELETE FROM `datas_yali`;
 INSERT INTO `datas_yali` (`id`, `yali`) VALUES
 	(1, '20');
 /*!40000 ALTER TABLE `datas_yali` ENABLE KEYS */;
+
+-- Dumping data for table intelligent_bucket.deng: ~0 rows (approximately)
+DELETE FROM `deng`;
+/*!40000 ALTER TABLE `deng` DISABLE KEYS */;
+INSERT INTO `deng` (`id`, `status`) VALUES
+	(1, 0);
+/*!40000 ALTER TABLE `deng` ENABLE KEYS */;
+
+-- Dumping data for table intelligent_bucket.mitong: ~0 rows (approximately)
+DELETE FROM `mitong`;
+/*!40000 ALTER TABLE `mitong` DISABLE KEYS */;
+INSERT INTO `mitong` (`id`, `status`) VALUES
+	(1, 0);
+/*!40000 ALTER TABLE `mitong` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
